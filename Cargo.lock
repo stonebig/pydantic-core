@@ -149,6 +149,7 @@ checksum = "62b02a5381cc465bd3041d84623d0fa3b66738b52b8e2fc3bab8ad63ab032f4a"
 [[package]]
 name = "jiter"
 version = "0.0.6"
+source = "git+https://github.com/pydantic/jiter?branch=dh/py2#9fc52185b11129d56d2eb9bc2b82e94720d4c781"
 dependencies = [
  "ahash",
  "hashbrown",
@@ -328,6 +329,7 @@ dependencies = [
 [[package]]
 name = "pyo3"
 version = "0.21.0-dev"
+source = "git+https://github.com/pyo3/pyo3#f04ad56df465170c1e5f5970c2a41cce96454ff3"
 dependencies = [
  "cfg-if",
  "indoc",
@@ -345,6 +347,7 @@ dependencies = [
 [[package]]
 name = "pyo3-build-config"
 version = "0.21.0-dev"
+source = "git+https://github.com/pyo3/pyo3#f04ad56df465170c1e5f5970c2a41cce96454ff3"
 dependencies = [
  "once_cell",
  "python3-dll-a",
@@ -354,6 +357,7 @@ dependencies = [
 [[package]]
 name = "pyo3-ffi"
 version = "0.21.0-dev"
+source = "git+https://github.com/pyo3/pyo3#f04ad56df465170c1e5f5970c2a41cce96454ff3"
 dependencies = [
  "libc",
  "pyo3-build-config",
@@ -362,6 +366,7 @@ dependencies = [
 [[package]]
 name = "pyo3-macros"
 version = "0.21.0-dev"
+source = "git+https://github.com/pyo3/pyo3#f04ad56df465170c1e5f5970c2a41cce96454ff3"
 dependencies = [
  "proc-macro2",
  "pyo3-macros-backend",
@@ -372,9 +377,11 @@ dependencies = [
 [[package]]
 name = "pyo3-macros-backend"
 version = "0.21.0-dev"
+source = "git+https://github.com/pyo3/pyo3#f04ad56df465170c1e5f5970c2a41cce96454ff3"
 dependencies = [
  "heck",
  "proc-macro2",
+ "pyo3-build-config",
  "quote",
  "syn",
 ]
